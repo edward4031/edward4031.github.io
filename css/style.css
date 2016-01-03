@@ -6,19 +6,19 @@
   src: url("fonts/FZYTK.eot?#iefix") format('embedded-opentype'), url("fonts/FZYTK.woff") format('woff'), url("fonts/FZYTK.ttf") format('truetype'), url("fonts/FZYTK.svg#FontAwesomeRegular") format('svg');
 }
 html {
-  background: #fefffe;
-  background: #fefffe -webkit-linear-gradient(#6c7989, #434b55) fixed;
-  background: #fefffe -moz-linear-gradient(#6c7989, #434b55) fixed;
-  background: #fefffe -o-linear-gradient(#6c7989, #434b55) fixed;
-  background: #fefffe -ms-linear-gradient(#6c7989, #434b55) fixed;
-  background: #fefffe linear-gradient(#6c7989, #434b55) fixed;
+  background: #6c7989;
+  background: #6c7989 -webkit-linear-gradient(#6c7989, #434b55) fixed;
+  background: #6c7989 -moz-linear-gradient(#6c7989, #434b55) fixed;
+  background: #6c7989 -o-linear-gradient(#6c7989, #434b55) fixed;
+  background: #6c7989 -ms-linear-gradient(#6c7989, #434b55) fixed;
+  background: #6c7989 linear-gradient(#6c7989, #434b55) fixed;
   background-image: url("images/th.jpg");
 }
 body {
   padding: 50px 0;
   margin: 0;
   font: 1em/1.5 "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif, FZYTK;
-  color: #555;
+  color: #000;
   font-weight: 300;
 }
 .wrapper {
@@ -36,7 +36,7 @@ footer {
   display: block;
 }
 a {
-  color: #069;
+  color: #000;
   text-decoration: none;
 }
 p {
@@ -44,7 +44,7 @@ p {
   padding: 0;
 }
 strong {
-  color: #222;
+  color: #000;
   font-weight: 700;
 }
 .content {
@@ -280,7 +280,7 @@ article header .title a {
   color: #222;
 }
 article header .title a:hover {
-  color: #069;
+  color: #000;
 }
 article .entry {
   font-size: 0.95em;
@@ -501,7 +501,7 @@ article footer .tags:before {
   display: block;
   padding: 5px 10px;
   font-family: "Droid Serif", Helvetica Neue, Helvetica, Arial, sans-serif, FZYTK;
-  background: #069;
+  background: #000;
   color: #fff;
   text-decoration: none;
 }
