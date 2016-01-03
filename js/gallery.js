@@ -9,7 +9,7 @@
       }
 
       if ($(this).parent('a').length === 0) {
-        $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery' + i + '" />');
+        $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery' + i + '">');
       }
     });
   });
@@ -64,4 +64,4 @@
       }
     });
   });
-})(jQuery);
+})(jQuery);</a>
